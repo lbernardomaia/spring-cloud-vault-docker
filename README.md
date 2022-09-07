@@ -1,4 +1,4 @@
-# spring-cloud-vault-docker
+# Spring Cloud Vault with docker
 
 The project aims to show a quick sample of a Spring Application using data from different Vault Paths and
 making use of Vault APP Role authentication method.
