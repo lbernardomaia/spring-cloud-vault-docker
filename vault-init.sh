@@ -32,9 +32,9 @@ vault write auth/approle/role/my-role \
     policies=spring-cloud-vault-docker-policy
 
 # Get the Role ID
-echo  "######ROLE ID######R"
+echo  "######ROLE ID######"
 vault read auth/approle/role/my-role/role-id
 
 # Get the secret ID
-echo  "######SECRET ID######R"
+echo  "######SECRET ID######"
 vault write -f auth/approle/role/my-role/secret-id
